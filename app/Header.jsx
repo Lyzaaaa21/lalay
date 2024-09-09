@@ -10,7 +10,17 @@ const Header = () => {
     <div>
 
       {data.map((data, key) => (
-        <li key={key}>{data.name}</li>
+        <ol>
+
+        <li key={key}>{data.name} </li> 
+        <li key={key}>{data.profession}</li> 
+        <li key={key}>{data.age}</li> 
+        <li key={key}>{data.username}</li> 
+        <li key={key}>{data.email}</li> 
+        <li key={key}>{data.phone}</li> 
+        
+        
+        </ol>
 
       ))}
 
